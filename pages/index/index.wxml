@@ -1,0 +1,7 @@
+<!--viewages/index/index.wxml-->
+<view>
+        <view class="name">效期计算器</view>
+        <view style="font-size: 12px;">
+            <view>当前日期：{{now_time}}</view>
+        </view>
+</view>
