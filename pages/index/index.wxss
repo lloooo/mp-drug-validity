@@ -1,4 +1,153 @@
-.name {
-  font-size: 18px;
-  margin-bottom: .27rem;
+.body {
+    height: 100%;
+    background: #4E5366;
+}
+
+.html {
+    height: 100%;
+    background: #4E5366;
+}
+
+body {
+    padding: .61rem .76rem .77rem .76rem;
+    background: #4E5366;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    color: #fff;
+    margin-bottom: .84rem;
+}
+
+.header-img {
+    width: 1.53rem;
+    margin-right: .32rem;
+}
+
+.header-name {
+    font-size: 18px;
+    margin-bottom: .27rem;
+}
+
+.section {
+    background: #fff;
+    border-radius: 10px;
+    color: #4E5366;
+    font-size: 14px;
+}
+
+.one {
+    padding: .99rem .2rem 1rem .75rem;
+    margin-bottom: .48rem;
+}
+
+.section-input {
+    width: .9rem;
+    text-align: center;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px dashed;
+    margin-right: .39rem;
+}
+
+.section-p {
+    margin-right: .45rem;
+}
+
+.section-result {
+    margin-top: .8rem;
+    text-align: center;
+    display: none;
+}
+
+.button {
+    width: 5.04rem;
+    height: .9rem;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background: #2E61B2;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: .91rem;
+}
+
+.two {
+    padding: .64rem .5rem .44rem .76rem;
+}
+
+.days input {
+    border-bottom: 1px solid;
+    margin-left: 0.8rem;
+}
+
+.tip {
+    color: #2E61B2;
+    font-size: 12px;
+    margin-top: .33rem;
+}
+
+.user {
+    color: #fff;
+    margin-top: 1.07rem;
+    text-align: right;
+    margin-bottom: .87rem;
+}
+
+.section {
+    /*padding: .64rem .5rem .44rem .76rem;*/
+    padding: .64rem 0rem .44rem 0rem;
+    margin-top: .48rem;
+}
+
+.section h3 {
+    padding: 0rem .5rem 0rem .76rem;
+}
+
+.table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    color: #4E5366;
+    margin-top: 0.25rem;
+}
+
+
+.table td {
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px solid #f4f4f4;
+    font-size: 12px;
+}
+
+.table thead tr th {
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center;
+    padding: 0.181rem 0rem 0.181rem 0rem;
+}
+
+.table thead tr td {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 0.181rem 0rem 0.181rem 0rem;
+    font-weight: bold;
+}
+
+.table tbody tr td {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.181rem 0rem 0.181rem 0rem;
 }
