@@ -1,59 +1,58 @@
-<!--viewages/index/index.wxml-->
-<view class="flex">
-    <view class="header-name">效期计算器</view>
-    <image class="header-img" src="./lpxyy.jpg" alt=""></image>
-    <view style="font-size: 12px;">
+<view>
+    <view>效期计算器</view>
+    <image src="./lpxyy.jpg" alt=""></image>
+    <view>
         <view>当前日期：{{now_time}}</view>
     </view>
 </view>
-<view class="one">
-    <view class="flex">
-        <view class="section-p">请输入开始日期</view>
-        <view class="ipts">
-            <input class="section-input" model:value="{{SY2}}" type="number"></input>
-            <input class="section-input" model:value="{{SM2}}" type="number"></input>
-            <input class="section-input" model:value="{{SD2}}" type="number"></input>
+<view>
+    <view>
+        <view>请输入开始日期</view>
+        <view>
+            <input model:value="{{SY2}}" type="number"></input>
+            <input model:value="{{SM2}}" type="number"></input>
+            <input model:value="{{SD2}}" type="number"></input>
         </view>
     </view>
-    <view style="margin-top: .8rem;" class="flex">
-        <view class="section-p">请输入结束日期</view>
-        <view class="ipts">
-            <input class="section-input" model:value="{{SY3}}" type="number"></input>
-            <input class="section-input" model:value="{{SM3}}" type="number"></input>
-            <input class="section-input" model:value="{{SD3}}" type="number"></input>
+    <view>
+        <view>请输入结束日期</view>
+        <view>
+            <input model:value="{{SY3}}" type="number"></input>
+            <input model:value="{{SM3}}" type="number"></input>
+            <input model:value="{{SD3}}" type="number"></input>
         </view>
     </view>
     <view hidden="{{result2Hidden}}">
         <view>计算结果：</view>
         <view>两个日期相隔</view>
-        <view id="result2">{{result2}}</view>
+        <view>{{result2}}</view>
         <view>天</view>
     </view>
-    <button bindtap="calb" id="btn1">
+    <button bindtap="calb">
         计算相隔天数
     </button>
 </view>
-<view class="two">
-    <view class="flex">
-        <view class="section-p">请输入日期</view>
-        <view class="ipts">
-            <input class="section-input" model:value="{{SY}}" type="number"></input>
-            <input class="section-input" model:value="{{SM}}" type="number"></input>
-            <input class="section-input" model:value="{{SD}}" type="number"></input>
+<view>
+    <view>
+        <view>请输入日期</view>
+        <view>
+            <input model:value="{{SY}}" type="number"></input>
+            <input model:value="{{SM}}" type="number"></input>
+            <input model:value="{{SD}}" type="number"></input>
         </view>
     </view>
-    <view style="margin-top: .8rem;" class="flex">
-        <view class="section-p">请输入天数</view>
-        <view class="ipts days">
-            <input id="decday" type="number" model:value="{{decday}}"></input>
+    <view>
+        <view>请输入天数</view>
+        <view>
+            <input type="number" model:value="{{decday}}"></input>
         </view>
     </view>
-    <view class="tip">
+    <view>
         注:输入负数天数为往前推算，如 -6
     </view>
     <view hidden="{{result1Hidden}}">
         <view>计算结果：</view>
-        <view id="result1">{{result1}}</view>
+        <view>{{result1}}</view>
     </view>
     <button  bindtap="cala">
         计算相隔天数
