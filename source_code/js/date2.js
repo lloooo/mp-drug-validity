@@ -18,7 +18,7 @@ if( y && m && d && ddd ) {
         return
     }
     
-    ttt=new Date(y,m-1,d-1).getTime()+ddd*24000*3600;
+    ttt=new Date(y,m-1,d).getTime()+ddd*24000*3600;
     
     theday=new Date();
     theday.setTime(ttt);
